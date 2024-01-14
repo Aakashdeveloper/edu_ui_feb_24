@@ -33,6 +33,54 @@ inline
 > only take according to content
 > span,a
 
+https://www.w3schools.com/tags/tag_hn.asp
 
 
 
+Name
+About You
+Your Image
+Skills
+Hobbies
+Map
+Footer
+Socail Link
+
+///////
+inline
+styletag
+stylesheet
+
+
+inline>styletag>stylesheet
+
+//inline
+{
+    height:400px;
+    background:green
+}
+
+//styletag
+{
+    width:300px;
+    background:orange;
+    font-size:30px
+}
+
+//stylesheet
+{
+    height:400px
+    font-size:40px;
+    border:1px solid
+    background:black;
+}
+
+
+{
+   height:400px;
+   background:green; 
+   width:300px;
+   font-size:30px;
+    border:1px solid
+
+}
