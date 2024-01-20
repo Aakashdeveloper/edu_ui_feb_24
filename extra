@@ -84,3 +84,25 @@ inline>styletag>stylesheet
     border:1px solid
 
 }
+
+
+https://htmlcolorcodes.com/
+
+////////
+id
+> #
+> When you want to target something unique
+
+class
+> .
+> Use to target group of element with same property
+
+tagname
+> to target something with tag
+
+
+https://imgbb.com/
+
+
+position:absolute
+position:relative
