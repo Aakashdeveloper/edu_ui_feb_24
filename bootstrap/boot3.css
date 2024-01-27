@@ -1,0 +1,60 @@
+.btn-purple{
+    background-color: purple;
+}
+
+#first{
+    height:200px;
+    background-color: rgb(234, 83, 83);
+}
+#second{
+    height:200px;
+    background-color: rgb(234, 206, 83);
+}
+#third{
+    height:200px;
+    background-color: rgb(83, 234, 86);
+}
+#fourth{
+    height:200px;
+    background-color: rgb(83, 234, 196);
+}
+#fifth{
+    height:200px;
+    background-color: rgb(83, 106, 234);
+}
+#six{
+    height:200px;
+    background-color: rgb(166, 83, 234);
+}
+#seven{
+    height:200px;
+    background-color: rgb(234, 83, 229);
+}
+
+.sky{
+    font-size: 30px;
+    color:skyblue
+}
+
+.delete{
+    font-size: 30px;
+    color:red
+}
+
+.edit{
+    font-size: 30px;
+    color:green
+}
+
+.sliderImage{
+    width:100%;
+    height: 350px !important;
+}
+
+.myImg{
+    height: 400px;
+}
+
+/* .mydiv{
+    background-image: url('food-wallpaper.png');
+} */
