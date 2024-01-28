@@ -139,3 +139,27 @@ md > 768px
 lg > 992px
 xl > 1200px
 xxl > 1400px
+
+
+datatypes
+operations
+consolealert
+stringliteral
+////////////////////
+let const
+mathopt
+stringopt
+ifelse
+array
+function
+Rest
+loop
+storage
+spread
+DOM
+
+calc
+coupon
+lightdark
+geolocation with weather
+forms
