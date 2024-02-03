@@ -145,21 +145,28 @@ datatypes
 operations
 consolealert
 stringliteral
-////////////////////
 let const
 mathopt
 stringopt
 ifelse
+switch
 array
-function
-Rest
-loop
-storage
 spread
+function
+////////////////////
+loop
+Rest
+storage
 DOM
-
 calc
 coupon
 lightdark
 geolocation with weather
+
+dynamic drop
 forms
+clouser
+hoisting
+mapfilter
+interval
+debouncing
