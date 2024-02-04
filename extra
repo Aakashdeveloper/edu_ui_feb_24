@@ -153,20 +153,21 @@ switch
 array
 spread
 function
-////////////////////
 loop
 Rest
 storage
 DOM
+lightdark
 calc
 coupon
-lightdark
 geolocation with weather
-
+interval
+debouncing
+////////////////////
 dynamic drop
 forms
+Json
 clouser
 hoisting
 mapfilter
-interval
-debouncing
+
