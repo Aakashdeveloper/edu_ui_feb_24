@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>Food App</title>
+        <link rel="stylesheet" type="text/css" href="home.css"/>
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <header>
+
+            <div id="brand">
+                Developer Funnel
+            </div>
+
+            <div id="social">
+                <a href="https://facebook.com">
+                    <img src="image/facebook.png" alt="fb" class="slogo"/>
+                </a>
+                <a href="https://facebook.com">
+                    <img src="image/insta.png" alt="fb" class="slogo"/>
+                </a>
+                <a href="https://facebook.com">
+                    <img src="image/youtube1.png" alt="fb" class="slogo"/>
+                </a>
+            </div>
+
+        </header>
+        <div id="search">
+            <div id="logo">
+                <span>D!</span>
+            </div>
+            <div id="heading">
+                Find Best Place Near Me
+            </div>
+            <div class="dropdown">
+                <select id="city" onChange="getRest()">
+                    <option>----SELECT CITY----</option>
+                    
+                </select>
+                <select id="restSelect">
+                    <option>----SELECT RESTAURANTS----</option>
+                   
+                </select>
+            </div>
+        </div>
+        <!--QuickSearch-->
+        <div id="quickSearch">
+            <span class="quickHeading">Quick Search</span>
+            <span class="quickSubHeading">Find Restaurants By MealType</span>
+            <div class="mainbox">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/FVhSTWK/breakfast.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/YR0S6fV/drinks.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/wchCHfb/snacks.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/q1fC2jW/nightlife.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/XjzPqYv/dinner.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="https://i.ibb.co/8rPxkWP/lunch.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="compHeading">
+                            <a href="#">Breakfast</a>
+                        </div>
+                        <div class="compSubHeading">
+                            Best Deal For Breakfast
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr/>
+            <p class="footText">&copy; Developer Funnel 2024</p>
+            <hr/>
+            <div class="footDiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footDiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footDiv noBorder">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            window.onload = getCity()
+        </script>
+    </body>
+</html>
